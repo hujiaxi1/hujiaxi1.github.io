@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="个人网站主页" />
+    <title>胡嘉玺 · Cahill Hu的个人网站</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- 为网页标题栏添加图标 -->
+    <link rel="icon" href="img/moon.JPG" />
+  </head>
+  <body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header -->
+    <header>
+      <!-- 导航区nav -->
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="index.html" title="主页">主页 | HOME</a>
+          </li>
+          <li>
+            <a href="literature.html" title="文学">文学 | LITERATURE</a>
+          </li>
+          <li>
+            <a href="movie.html" title="电影">电影 | MOVIE</a>
+          </li>
+          <li>
+            <a href="music.html" title="音乐">音乐 | MUSIC</a>
+          </li>
+          <li>
+            <a href="contact.html" title="联系">联系 | CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end of nav -->
+    </header>
+    <!-- end of header -->
+
+    <!-- 边栏区aside -->
+    <aside>
+      <nav>
+        <ul class="sidenav">
+          <li>C</li>
+          <li>A</li>
+          <li>H</li>
+          <li>I</li>
+          <li>L</li>
+          <li>L</li>
+          <!-- 返回页面最上方 -->
+          <li class="gototop">
+            <a href data-pos="0"
+              ><img src="img/gototop.png" width="11" alt=""
+            /></a>
+          </li>
+          <li>B</li>
+          <li>L</li>
+          <li>O</li>
+          <li>G</li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- end of aside -->
+
+    <!-- 1号内容区container1，用来放置当前页面背景图 -->
+    <div id="container1"></div>
+
+    <!-- 2号内容区container2，内部又分为两个部分cont1和cont2 -->
+    <div id="container2">
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <div class="inner">
+        <!-- 主页logo -->
+        <div class="logo">
+          <img src="img/homelogo.png" alt="" width="45" />
+        </div>
+        <!-- 内容区cont1：主页标题 -->
+        <div id="cont1">
+          <h1>主页 | HOME</h1>
+        </div>
+        <!-- 内容区cont2：作者信息 -->
+        <div id="cont2">
+          <h1>CAHILL</h1>
+          <p>Designed and developed by 胡嘉玺 Cahill Hu.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of container2 -->
+
+    <!-- 3号内容区container3，内部又分为左中右三个部分contLeft、contMiddle和contRight -->
+    <div id="container3">
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <div class="inner">
+        <!-- 内容区contLeft：文学 -->
+        <div id="contLeft">
+          <h1>LITERATURE</h1>
+          <img src="img/line.png" alt="" height="40" />
+          <br />
+          <img src="img/book/3.jpg" alt="" width="150" />
+          <div class="description">
+            <h1>《白夜行》</h1>
+            <p>
+              “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、压抑、悲凉的故事片段像纪录片一样一一还原：没有痴痴相思，没有海枯石烂，只剩下一个冰冷绝望的诡计，最后一丝温情也被完全抛弃，万千读者在一曲救赎罪恶的凄苦爱情中悲切动容……
+            </p>
+          </div>
+          <a href="literature.html" class="button">VIEW ALL</a>
+        </div>
+        <!-- 内容区contMiddle：电影 -->
+        <div id="contMiddle">
+          <h1>MOVIE</h1>
+          <img src="img/line.png" alt="" height="40" />
+          <br />
+          <img src="img/movie/5.webp" alt="" width="150" />
+          <div class="description">
+            <h1>《寄生虫》</h1>
+            <p>
+              沐浴庭院里的阳光就能进化成人，呼吸暗室里的空气只会走肉如鬼。抱上贫穷的石头终生无法脱手，染上廉价的气味永世不能消除。蜷缩地下的臭虫，用药剂开窗替自己杀菌；位居高处的宿主，用金钱雇人给自己消毒。富人吸着穷人的血高升，穷人寄在富人的屋苟活，人鬼同处一室分享食物，虫兽寄生一体发育恩仇。
+            </p>
+          </div>
+          <a href="movie.html" class="button">VIEW ALL</a>
+        </div>
+        <!-- 内容区contRight：音乐 -->
+        <div id="contRight">
+          <h1>MUSIC</h1>
+          <img src="img/line.png" alt="" height="40" />
+          <br />
+          <img src="img/music/4.JPG" alt="" width="150" />
+          <h1>Changes</h1>
+          <div class="description">
+            <ul>
+              <li>thank u, next</li>
+              <li>Head in the Clouds II</li>
+              <li>EVERYTHING YOU WANTED</li>
+              <li>THE ALBUM</li>
+              <li>rice & shine</li>
+              <li>KWON JI YONG</li>
+              <li>2030</li>
+              <li>130 Mood : TRBL</li>
+            </ul>
+          </div>
+          <a href="music.html" class="button">VIEW ALL</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of container3 -->
+
+    <!-- 图片页脚区container4，可以跳转至各个界面。其中内容区subfooter1跳转至主页，subfooter2跳转至文学页面 -->
+    <!-- subfooter3跳转至电影页面，subfooter4跳转至音乐页面，subfooter5跳转至联系页面。 -->
+    <div id="container4">
+      <div id="subfooter2">
+        <a href="literature.html">LITERATURE</a>
+      </div>
+      <div id="subfooter3">
+        <a href="movie.html">MOVIE</a>
+      </div>
+      <div id="subfooter4">
+        <a href="music.html">MUSIC</a>
+      </div>
+      <div id="subfooter5">
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <!-- end of container4 -->
+
+    <!-- 页脚区footer -->
+    <footer>
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <table class="inner">
+        <tr>
+          <td rowspan="2">
+            <img src="img/flower.JPG" alt="" width="300" />
+          </td>
+          <!-- 分享途径 -->
+          <td>
+            <img src="img/sharelogo.png" alt="" width="45" />
+          </td>
+          <td>
+            <h1>分享 | SHARE</h1>
+          </td>
+        </tr>
+        <tr>
+          <td class="sharetext" colspan="2">
+            <form action="">
+              <input type="radio" name="share" />
+              <h1>朋友圈</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>QQ空间</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>新浪微博</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>FACEBOOK</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>INSTRAGRAM</h1>
+              <br />
+            </form>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <!-- 页脚导航区footnav -->
+      <ul class="footnav">
+        <li>
+          <a href="index.html" title="主页">HOME</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="literature.html" title="文学">LITERATURE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="movie.html" title="电影">MOVIE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="music.html" title="音乐"> MUSIC</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="contact.html" title="联系">CONTACT</a>
+        </li>
+      </ul>
+      <!-- 版权声明 -->
+      <p>Designed and developed by Cahill Hu.</p>
+      <p>Copyright © 2021 hujiaxi.com. All Rights Reserved.</p>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
