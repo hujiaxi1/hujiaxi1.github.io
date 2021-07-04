@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="音乐 | MUSIC" />
+    <title>音乐 | MUSIC</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/music.css" />
+    <!-- 为网页标题栏添加图标 -->
+    <link rel="icon" href="img/moon.JPG" />
+  </head>
+  <body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header -->
+    <header>
+      <!-- 导航区nav -->
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="index.html" title="主页">主页 | HOME</a>
+          </li>
+          <li>
+            <a href="literature.html" title="文学">文学 | LITERATURE</a>
+          </li>
+          <li>
+            <a href="movie.html" title="电影">电影 | MOVIE</a>
+          </li>
+          <li>
+            <a href="music.html" title="音乐">音乐 | MUSIC</a>
+          </li>
+          <li>
+            <a href="contact.html" title="联系">联系 | CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end of nav -->
+    </header>
+    <!-- end of header -->
+
+    <!-- 边栏区aside -->
+    <aside>
+      <nav>
+        <ul class="sidenav">
+          <li>C</li>
+          <li>A</li>
+          <li>H</li>
+          <li>I</li>
+          <li>L</li>
+          <li>L</li>
+          <!-- 返回页面最上方 -->
+          <li class="gototop">
+            <a href data-pos="0"
+              ><img src="img/gototop.png" width="11" alt=""
+            /></a>
+          </li>
+          <li>B</li>
+          <li>L</li>
+          <li>O</li>
+          <li>G</li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- end of aside -->
+
+    <!-- 1号内容区musicContainer1，用来放置当前页面背景图 -->
+    <div id="musicContainer1">
+      <h1>MUSIC</h1>
+    </div>
+    <!-- end of musicContainer1 -->
+
+    <!-- 2号内容区musicContainer2，用来放置当前页面标题 -->
+    <div id="musicContainer2">
+      <h1>音乐 | MUSIC</h1>
+    </div>
+    <!-- end of musicContainer2 -->
+
+    <!-- 3号内容区movieContainer3，内容为专辑介绍 -->
+    <div id="musicContainer3">
+      <!-- 分割线 -->
+      <div class="musicTitle">
+        <img src="img/line.png" alt="" />
+        <img src="img/musiclogo.png" alt="" />
+        <img src="img/line.png" alt="" />
+      </div>
+      <!-- 表格：内容为专辑具体介绍 -->
+      <table>
+        <tr>
+          <td>
+            <img src="img/music/1.JPG" alt="" width="250" />
+            <h1>thank u, next</h1>
+            <p>
+              Artist：Ariana Grande <br />
+              Style：POP<br />
+              Release date：2019-02-08 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/2.JPG" alt="" width="250" />
+            <h1>130 Mood : TRBL</h1>
+            <p>
+              Artist：DEAN <br />
+              Style：POP<br />
+              Release date：2016-03-25 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/3.JPG" alt="" width="250" />
+            <h1>Head in the Clouds II</h1>
+            <p>
+              Artist：88rising <br />
+              Style：POP<br />
+              Release date：2019-10-11 <br />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/music/4.JPG" alt="" width="250" />
+            <h1>Changes</h1>
+            <p>
+              Artist：Justin Bieber <br />
+              Style：POP<br />
+              Release date：2020-02-14 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/5.JPG" alt="" width="250" />
+            <h1>EVERYTHING YOU WANTED</h1>
+            <p>
+              Artist：Jay Park <br />
+              Style：R&B/SOUL<br />
+              Release date：2016-10-20 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/6.JPG" alt="" width="250" />
+            <h1>THE ALBUM</h1>
+            <p>
+              Artist：BLACKPINK <br />
+              Style：DANCE<br />
+              Release date：2020-10-02 <br />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/music/7.JPG" alt="" width="250" />
+            <h1>rice & shine</h1>
+            <p>
+              Artist：陈奕迅 <br />
+              Style：POP<br />
+              Release date：2014-05-15 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/8.JPG" alt="" width="250" />
+            <h1>KWON JI YONG</h1>
+            <p>
+              Artist：G-DRAGON <br />
+              Style：RAP/HIP HOP<br />
+              Release date：2017-06-08 <br />
+            </p>
+          </td>
+          <td>
+            <img src="img/music/9.JPG" alt="" width="250" />
+            <h1>2030</h1>
+            <p>
+              Artist：刘柏辛Lexie <br />
+              Style：POP<br />
+              Release date：2019-02-01 <br />
+            </p>
+          </td>
+        </tr>
+      </table>
+      <!-- 分割线 -->
+      <div class="line"></div>
+    </div>
+    <!-- end of musicContainer3 -->
+
+    <!-- 图片页脚区container4，可以跳转至各个界面。其中内容区subfooter1跳转至主页，subfooter2跳转至文学页面 -->
+    <!-- subfooter3跳转至电影页面，subfooter4跳转至音乐页面，subfooter5跳转至联系页面。 -->
+    <div id="container4">
+      <div id="subfooter1">
+        <a href="index.html">HOME</a>
+      </div>
+      <div id="subfooter2">
+        <a href="literature.html">LITERATURE</a>
+      </div>
+      <div id="subfooter3">
+        <a href="movie.html">MOVIE</a>
+      </div>
+      <div id="subfooter5">
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <!-- end of container4 -->
+
+    <!-- 页脚区footer -->
+    <footer>
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <table class="inner">
+        <tr>
+          <td rowspan="2">
+            <img src="img/flower.JPG" alt="" width="300" />
+          </td>
+          <!-- 分享途径 -->
+          <td>
+            <img src="img/sharelogo.png" alt="" width="45" />
+          </td>
+          <td>
+            <h1>分享 | SHARE</h1>
+          </td>
+        </tr>
+        <tr>
+          <td class="sharetext" colspan="2">
+            <form action="">
+              <input type="radio" name="share" />
+              <h1>朋友圈</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>QQ空间</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>新浪微博</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>FACEBOOK</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>INSTRAGRAM</h1>
+              <br />
+            </form>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <!-- 页脚导航区footnav -->
+      <ul class="footnav">
+        <li>
+          <a href="index.html" title="主页">HOME</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="literature.html" title="文学">LITERATURE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="movie.html" title="电影">MOVIE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="music.html" title="音乐"> MUSIC</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="contact.html" title="联系">CONTACT</a>
+        </li>
+      </ul>
+      <!-- 版权声明 -->
+      <p>Designed and developed by Cahill Hu.</p>
+      <p>Copyright © 2021 hujiaxi.com. All Rights Reserved.</p>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>

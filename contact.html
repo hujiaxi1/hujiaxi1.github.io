@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="联系" />
+    <title>联系 | CONTACT</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <!-- 为网页标题栏添加图标 -->
+    <link rel="icon" href="img/moon.JPG" />
+  </head>
+  <body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header -->
+    <header>
+      <!-- 导航区nav -->
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="index.html" title="主页">主页 | HOME</a>
+          </li>
+          <li>
+            <a href="literature.html" title="文学">文学 | LITERATURE</a>
+          </li>
+          <li>
+            <a href="movie.html" title="电影">电影 | MOVIE</a>
+          </li>
+          <li>
+            <a href="music.html" title="音乐">音乐 | MUSIC</a>
+          </li>
+          <li>
+            <a href="contact.html" title="联系">联系 | CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end of nav -->
+    </header>
+    <!-- end of header -->
+
+    <!-- 边栏区aside -->
+    <aside>
+      <nav>
+        <ul class="sidenav">
+          <li>C</li>
+          <li>A</li>
+          <li>H</li>
+          <li>I</li>
+          <li>L</li>
+          <li>L</li>
+          <!-- 返回页面最上方 -->
+          <li class="gototop">
+            <a href data-pos="0"
+              ><img src="img/gototop.png" width="11" alt=""
+            /></a>
+          </li>
+          <li>B</li>
+          <li>L</li>
+          <li>O</li>
+          <li>G</li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- end of aside -->
+
+    <!-- 1号内容区contactContainer1，用来放置当前页面背景图 -->
+    <div id="contactContainer1">
+      <h1>CONTACT</h1>
+    </div>
+    <!-- end of contactContainer1 -->
+
+    <!-- 2号内容区contactContainer2，用来放置当前页面标题-->
+    <div id="contactContainer2">
+      <h1>联系 | CONTACT</h1>
+    </div>
+    <!-- end of contactContainer2 -->
+
+    <!-- 1号表单区form1，用于填写留言 -->
+    <div id="form1">
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <div class="inner">
+        <!-- 标题 -->
+        <h1>写新留言 | JUST SAY WHAT YOU LIKE :</h1>
+        <!-- 表单：留言区 -->
+        <form action="">
+          <textarea
+            name="message"
+            placeholder="有什么想对我说的？畅所欲言吧"
+          ></textarea>
+        </form>
+      </div>
+    </div>
+    <!-- end of form1 -->
+
+    <!-- 2号表单区form2，用于填写联系方式 -->
+    <div id="form2">
+      <!-- 页面logo -->
+      <div class="logo">
+        <img src="img/contactlogo.png" alt="" width="45" />
+      </div>
+      <!-- 标题 -->
+      <h1>联系方式 | CONTACT</h1>
+      <!-- 表单：填写联系方式 -->
+      <form action="">
+        <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+        <table class="inner">
+          <tr>
+            <td><h1>姓名：</h1></td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                value=""
+                placeholder="NAME"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><h1>电话：</h1></td>
+            <td>
+              <input
+                type="tel"
+                name="phone"
+                value=""
+                placeholder="PHONE"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><h1>邮箱：</h1></td>
+            <td>
+              <input
+                type="text"
+                name="email"
+                value=""
+                placeholder="EMAIL"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><h1>主题：</h1></td>
+            <td>
+              <input
+                type="text"
+                name="title"
+                value=""
+                placeholder="TITLE"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><h1>备注：</h1></td>
+            <td>
+              <textarea
+                name="comments"
+                placeholder="MESSAGE"
+                cols="40"
+                rows="6"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="text">
+              留言会公开显示，请勿在留言内容写下微信号等私人联系方式，谨防诈骗。如果你不想发布公开留言，也可以发送邮件到1533501486@qq.com与我联系。
+            </td>
+          </tr>
+          <!-- 提交按钮 -->
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="提交" class="button" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <!-- end of form2 -->
+
+    <!-- 图片页脚区container4，可以跳转至各个界面。其中内容区subfooter1跳转至主页，subfooter2跳转至文学页面 -->
+    <!-- subfooter3跳转至电影页面，subfooter4跳转至音乐页面，subfooter5跳转至联系页面。 -->
+    <div id="container4">
+      <div id="subfooter1">
+        <a href="index.html">HOME</a>
+      </div>
+      <div id="subfooter2">
+        <a href="literature.html">LITERATURE</a>
+      </div>
+      <div id="subfooter3">
+        <a href="movie.html">MOVIE</a>
+      </div>
+      <div id="subfooter4">
+        <a href="music.html">MUSIC</a>
+      </div>
+    </div>
+    <!-- end of container4 -->
+
+    <!-- 页脚区footer -->
+    <footer>
+      <!-- 公共类inner，用来放置内容，内容区宽度固定，居中 -->
+      <table class="inner">
+        <tr>
+          <td rowspan="2">
+            <img src="img/flower.JPG" alt="" width="300" />
+          </td>
+          <!-- 分享途径 -->
+          <td>
+            <img src="img/sharelogo.png" alt="" width="45" />
+          </td>
+          <td>
+            <h1>分享 | SHARE</h1>
+          </td>
+        </tr>
+        <tr>
+          <td class="sharetext" colspan="2">
+            <form action="">
+              <input type="radio" name="share" />
+              <h1>朋友圈</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>QQ空间</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>新浪微博</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>FACEBOOK</h1>
+              <br />
+              <input type="radio" name="share" />
+              <h1>INSTRAGRAM</h1>
+              <br />
+            </form>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <!-- 页脚导航区footnav -->
+      <ul class="footnav">
+        <li>
+          <a href="index.html" title="主页">HOME</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="literature.html" title="文学">LITERATURE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="movie.html" title="电影">MOVIE</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="music.html" title="音乐"> MUSIC</a>
+        </li>
+        <span>|</span>
+        <li>
+          <a href="contact.html" title="联系">CONTACT</a>
+        </li>
+      </ul>
+      <!-- 版权声明 -->
+      <p>Designed and developed by Cahill Hu.</p>
+      <p>Copyright © 2021 hujiaxi.com. All Rights Reserved.</p>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
