@@ -1,0 +1,72 @@
+/* <!-- 1号内容区musicContainer1，用来放置当前页面背景图 --> */
+#musicContainer1 {
+  background: url(../img/beach.JPG) no-repeat center;
+  background-size: 100%;
+  width: 100%;
+  height: 730px;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#musicContainer1 h1 {
+  transition: all 0.3s;
+  line-height: 730px;
+  font-size: 120px;
+  letter-spacing: 7px;
+  color: white;
+}
+
+/* <!-- 2号内容区musicContainer2，用来放置当前页面标题 --> */
+#musicContainer2 {
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+
+/* 3号内容区movieContainer3，内容为专辑介绍 */
+#musicContainer3 {
+  margin: 0 auto;
+}
+
+#musicContainer3 .musicTitle {
+    margin:0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+#musicContainer3 table {
+  /* 单元格与单元格之间的距离 */
+  border-spacing: 60px;
+  margin: 0 auto 50px auto;
+  transition: all .4s;
+}
+
+#musicContainer3 td {
+  text-align: center;
+  padding: 20px;
+}
+
+#musicContainer3 img {
+  transition: all 0.5s ease-out;
+  border-radius: 120px;
+  margin: 20px;
+}
+
+#musicContainer3 h1 {
+  height: 54px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin: 20px 0 20px 0;
+}
+
+#musicContainer3 p {
+  height: 50px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  margin-bottom: 1em;
+  line-height: 2em;
+  color: #afafaf;
+  font-weight: 600;
+}

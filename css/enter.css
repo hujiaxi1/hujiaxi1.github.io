@@ -1,0 +1,59 @@
+body {
+  background: url(../img/enter.jpg) no-repeat;
+  background-size: 100%;
+  background-color: black;
+}
+
+/* 自我介绍内容区introduction */
+#introduction {
+  font-family: "plantc", "Source Han Serif", serif;
+  color: #fff;
+  /* 绝对定位 */
+  position: absolute;
+  left: 28%;
+  top: 12%;
+}
+
+/* 一级标题样式 */
+#introduction h1 {
+  line-height: 1.4em;
+  font-size: 70px;
+}
+
+/* 二级标题样式 */
+#introduction h2 {
+  font-size: 34px;
+  font-weight: normal;
+}
+
+/* 进入按钮click */
+#click {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+
+/* 按钮样式 */
+.button {
+  display: block;
+  margin: 10px auto 0;
+  width: 280px;
+  height: 46px;
+  line-height: 44px;
+  font-family: "Trade Gothic W01";
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* 超链接样式 */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: slateblue;
+}
