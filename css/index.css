@@ -294,7 +294,7 @@ footer td.sharetext h1 {
 /* 内容区subfooter1：跳转至主页 */
 #container4 #subfooter1 {
   height: 300px;
-  background: url(../img/sub1.JPG) no-repeat center;
+  background: url(../img/sub1.jpg) no-repeat center;
   background-size: 100%;
   text-align: center;
 }
